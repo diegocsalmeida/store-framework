@@ -5,18 +5,21 @@
             "header-layout.mobile"
         ]
     },
+  
     "header.full": {
         "blocks": [
             "header-layout.desktop",
             "header-layout.mobile"
         ]
     },
+  
     "header-layout.desktop": {
         "children": [
             "header-row#notification",
             "header-row#main"
         ]
     },
+  
     "header-layout.mobile": {
         "children": [
             "header-row#notification",
@@ -24,19 +27,13 @@
             "header-row#search"
         ]
     },
-    "header-row#notification": {
-        "children": [
-            "header-spacer",
-            "rich-text#header",
-            "header-spacer"
-        ]
-    },
-    "header-row#main": {        
+  
+    "header-row#main": {
         "props": {
             "inverted": true,
             "sticky": true,
             "fullWidth": false
-        },
+        },      
         "children": [
             "logo",
             "header-spacer",
@@ -45,6 +42,15 @@
             "login"
         ]
     },
+  
+    "header-row#notification": {
+        "children": [
+            "header-spacer",
+            "rich-text#header",
+            "header-spacer"
+        ]
+    },
+  
     "header-row#main-mobile": {
         "children": [
             "logo",
@@ -57,6 +63,7 @@
             "inverted": true
         }
     },
+  
     "header-row#search": {
         "children": [
             "search-bar"
@@ -65,21 +72,24 @@
             "sticky": true
         }
     },
+  
     "login": {
         "props": {
             "showIconProfile": true,
             "iconLabel": "Login"
         }
     },
+  
     "logo": {
         "props": {
-            "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
+            "url": "https://www.usereserva.com/ccstore/v1/images/?source=/file/general/reserva-carrossel-desk-classicos-piano2.jpg&width=1280&height=433"
         }
     },
+  
     "rich-text#header": {
         "props": {
             "text": "**Free Shipping on orders over $50**",
             "textPosition": "CENTER"
         }
     }
-}
+  }
